@@ -1,0 +1,6 @@
+uvicorn
+pymongo
+fastapi
+motor
+cryptography
+pydantic[email]
