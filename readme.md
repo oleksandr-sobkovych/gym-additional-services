@@ -17,6 +17,9 @@ pip install -r requirements.txt
 
 ```bash
 # launch and setup MongoDB
+mkdir ./data/db1
+mkdir ./data/db2
+mkdir ./data/db3
 sudo mongod --bind_ip localhost --replSet services_set --port 27017 --dbpath ./data/db1
 sudo mongod --bind_ip localhost --replSet services_set --port 28017 --dbpath ./data/db2
 sudo mongod --bind_ip localhost --replSet services_set --port 29017 --dbpath ./data/db3
